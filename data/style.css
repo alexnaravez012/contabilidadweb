@@ -1049,19 +1049,6 @@
     outline: 0;
 }
 
-.input-date-accounting {
-    border: none;
-    border-bottom: 1px solid rgb(0, 0, 182);
-    width: 140px;
-    color: rgb(0, 0, 182);
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.input-date-accounting:focus {
-    outline: 0;
-}
-
 .input-observations-accounting {
     width: 395px;
     border: none;
@@ -1598,15 +1585,14 @@
 
 .navbar-search-products-re-accounting {
     height: 70px;
-    width: 850px;
+    width: 100%;
 }
 
 .input-date-accounting {
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 182, 0.459);
+    border-bottom: 1px solid rgba(150, 150, 150, 0.459);
     width: 140px;
-    color: rgba(0, 0, 182, 0.527);
-    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.527);
     cursor: pointer;
 }
 
@@ -1615,7 +1601,7 @@
 }
 
 .input-date-accounting::placeholder {
-    color: rgba(0, 0, 182, 0.459);
+    color: rgba(77, 77, 77, 0.459);
 }
 
 .navbar-product-select-accounting {
@@ -1774,8 +1760,8 @@
     border-radius: 10px;
     font-size: 11px;
     cursor: pointer;
-    width: 110px;
-    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .button-search-actualice-accounting:focus {
@@ -1852,5 +1838,57 @@
 }
 
 .select-register-enterprise-accounting select:disabled~.select_arrow-register-enterprise-accounting {
+    border-top-color: #cccccc;
+}
+
+.select-general-document-accounting {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    border: none !important;
+}
+
+.select-general-document-accounting select {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 2px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 11px;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.377) !important;
+    border-radius: 0px;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.493);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-general-document-accounting select::-ms-expand {
+    display: none;
+}
+
+.select-general-document-accounting select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.select_arrow-general-document-accounting {
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 6px 3px 0px 5px;
+    border-color: rgb(0, 0, 0) transparent transparent transparent;
+}
+
+.select-general-document-accounting select:hover~.select_arrow-general-document-accounting,
+.select-general-document-accounting select:focus~.select_arrow-general-document-accounting {
+    border-top-color: #000000;
+}
+
+.select-general-document-accounting select:disabled~.select_arrow-general-document-accounting {
     border-top-color: #cccccc;
 }
