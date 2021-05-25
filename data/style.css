@@ -1892,3 +1892,12 @@
 .select-general-document-accounting select:disabled~.select_arrow-general-document-accounting {
     border-top-color: #cccccc;
 }
+
+.button-selected-count {
+    border: 1px solid rgba(128, 128, 128, 0.623);
+    border-radius: 5px;
+    height: 25px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
