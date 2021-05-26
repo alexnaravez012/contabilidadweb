@@ -155,8 +155,8 @@
             </ul>
         </div>
     </div>
-    <!-- Buscar -->
-    <div style="display: inline;">
+    <!-- Generar documentos contables -->
+    <div style="display: none;">
         <!-- Contenido -->
         <div class="main-container-accounting">
             <div class="uk-flex uk-flex-middle navbar-search-products-accounting">
@@ -239,7 +239,7 @@
                 <div style="margin-left: 42px; margin-top: 10px;">
                     <h6 class="uk-margin-remove uk-text-bold color-blue font-size-15">Cuenta seleccionada:</h6>
                 </div>
-                <div class="uk-flex uk-flex-middle" style="margin-left: 42px; margin-top: 10px;">
+                <div class="uk-flex uk-flex-middle" style="margin-left: 42px; margin-top: 10px; margin-bottom: 20px;">
                     <div class="uk-flex">
                         <div class="uk-flex uk-flex-middle uk-flex-between button-selected-count">
                             <h6 class="uk-margin-remove uk-text-bold font-size-10">1-ACTIVO</h6>
@@ -249,9 +249,9 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="padding-horizontal-20">
                         <h6 class="uk-margin-remove font-size-9 uk-text-bold">Seleccione naturaleza de cuenta</h6>
-                        <div class="select-general-document-accounting" style="width: 115px; margin-bottom: 13px;">
+                        <div class="select-general-document-accounting" style="width: 115px; margin-bottom: 10px;">
                             <select>
                                 <option>Crédito</option>
                                 <option>opción 1</option>
@@ -263,20 +263,178 @@
                             </div>
                         </div>
                     </div>
-                    <div style="margin-bottom: 13px;">
+                    <div style="margin-bottom: 10px;">
                         <h6 class="uk-margin-remove font-size-9 uk-text-bold">Valor de la cuenta</h6>
                         <input class="input-date-accounting font-size-12" type="text" placeholder="$500,000,000.00">
                     </div>
-                    <div class="uk-flex uk-flex-column">
-                        <input class="input-date-accounting font-size-12" type="text" placeholder="Notas de la cuenta">
-                        <input class="input-date-accounting font-size-12" type="text" placeholder="Tercero asociado al detalle">
+                    <div class="uk-flex uk-flex-column padding-horizontal-20" style="margin-bottom: 10px;">
+                        <input class="input-date-accounting font-size-12" style="width: 180px !important;" type="text" placeholder="Notas de la cuenta">
+                        <input class="input-date-accounting font-size-12" style="width: 180px !important;" type="text" placeholder="Tercero asociado al detalle">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <i class="fas fa-user-plus color-red font-size-18"></i>
+                        <i class="fas fa-plus-square color-red font-size-18 padding-horizontal-10"></i>
                     </div>
                 </div>
+                <div class="navbar-product-select-accounting">
+                </div>
+                <div>
+                    <div style="margin-left: 42px; margin-top: 10px; margin-bottom: 5px;">
+                        <h6 class="uk-margin-remove uk-text-bold color-blue font-size-15">Cuenta seleccionada:</h6>
+                    </div>
+                    <div class="uk-flex uk-flex-middle padding-vertical-5" style="margin-left: 42px;">
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-300">Cuenta</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Valor</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Naturaleza</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Notas</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Tercero</h6>
+                    </div>
+                </div>
+                <div class="hr-tab"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Ver documentos contables -->
+    <div style="display: none;">
+        <!-- Contenido -->
+        <div class="main-container-accounting">
+            <div class="uk-flex uk-flex-middle navbar-search-products-accounting">
+                <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 40px; padding-top: 18px; height: 45px; border-bottom: 18px solid white;">
+                    <h4 class="uk-margin-remove uk-text-bold">Contabilidad</h4>
+                </div>
+                <div class="uk-flex uk-flex-middle uk-flex-center button-categories-accounting" style="width: 250px !important;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer uk-text-center" style="padding-top: 21px;">Generar documentos contables</h6>
+                </div>
+                <div style="margin-left: 45px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Ver documentos contables</h6>
+                </div>
+                <div style="margin-left: 55px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Generar balance</h6>
+                </div>
+                <div style="margin-left: 45px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue cursor-pointer">Agregar a PUC</h6>
+                </div>
+            </div>
+            <div style="margin-top: 30px;">
+                <div style="margin-left: 42px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue font-size-15">Datos del documento</h6>
+                </div>
+                <div class="uk-flex uk-flex-middle">
+                    <div>
+                        <div class="uk-flex uk-flex-middle navbar-search-products-re-accounting" style="margin-left: 42px;">
+                            <div>
+                                <h6 class="uk-margin-remove font-size-11">Seleccione tipo de documento</h6>
+                                <div class="select-general-document-accounting" style="width: 183px; margin-bottom: 13px;">
+                                    <select>
+                                        <option>Documento contable general</option>
+                                        <option>opción 1</option>
+                                        <option>opción 2</option>
+                                        <option>opción 3</option>
+                                        <option>opción 4</option>
+                                    </select>
+                                    <div class="select_arrow-general-document-accounting">
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-left: 20px;">
+                                <input class="input-date-accounting font-size-12" type="text" placeholder="Notas">
+                            </div>
+                            <div style="margin-left: 30px; margin-bottom: 5px;">
+                                <button class="button-search-actualice-accounting">Generar documento contable</button>
+                                <button class="button-search-actualice-accounting">Limpiar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-flex" style="margin-left: 100px;">
+                        <div>
+                            <h6 class="uk-margin-remove font-size-11">Documento tercero</h6>
+                            <input class="input-date-accounting font-size-12" type="text" placeholder="Gonzalo">
+                        </div>
+                        <div style="margin-top: 8px; margin-left: 20px;">
+                            <button class="button-search-actualice-accounting" px>Buscar Tercero</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-middle" style="margin-left: 42px; margin-bottom: 30px;">
+                    <div class="width-110">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold">Tercero:</h6>
+                        <h6 class="uk-margin-remove font-size-11">Gonzalo Arias</h6>
+                    </div>
+                    <div class="width-110">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold">Documento:</h6>
+                        <h6 class="uk-margin-remove font-size-11">CC-10232306</h6>
+                    </div>
+                    <div class="width-110">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold">Teléfono:</h6>
+                        <h6 class="uk-margin-remove font-size-11">3128541582</h6>
+                    </div>
+                    <div class="width-240">
+                        <h6 class="uk-margin-remove font-size-12 color-blue uk-text-bold">Dirección:</h6>
+                        <h6 class="uk-margin-remove font-size-11">CL 13 CON CR 80 SAN ANDRESITO BARRIO CENTRO</h6>
+                    </div>
+                </div>
+                <div class="navbar-product-select-accounting">
+                </div>
+                <div style="margin-left: 42px; margin-top: 10px;">
+                    <h6 class="uk-margin-remove uk-text-bold color-blue font-size-15">Cuenta seleccionada:</h6>
+                </div>
+                <div class="uk-flex uk-flex-middle" style="margin-left: 42px; margin-top: 10px; margin-bottom: 20px;">
+                    <div class="uk-flex">
+                        <div class="uk-flex uk-flex-middle uk-flex-between button-selected-count">
+                            <h6 class="uk-margin-remove uk-text-bold font-size-10">1-ACTIVO</h6>
+                            <div class="uk-flex uk-flex-middle">
+                                <h6 class="uk-margin-remove font-size-10 padding-horizontal-30">Despliegue para seleccionar cuenta</h6>
+                                <i class="fas fa-caret-down font-size-12"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-horizontal-20">
+                        <h6 class="uk-margin-remove font-size-9 uk-text-bold">Seleccione naturaleza de cuenta</h6>
+                        <div class="select-general-document-accounting" style="width: 115px; margin-bottom: 10px;">
+                            <select>
+                                <option>Crédito</option>
+                                <option>opción 1</option>
+                                <option>opción 2</option>
+                                <option>opción 3</option>
+                                <option>opción 4</option>
+                            </select>
+                            <div class="select_arrow-general-document-accounting">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <h6 class="uk-margin-remove font-size-9 uk-text-bold">Valor de la cuenta</h6>
+                        <input class="input-date-accounting font-size-12" type="text" placeholder="$500,000,000.00">
+                    </div>
+                    <div class="uk-flex uk-flex-column padding-horizontal-20" style="margin-bottom: 10px;">
+                        <input class="input-date-accounting font-size-12" style="width: 180px !important;" type="text" placeholder="Notas de la cuenta">
+                        <input class="input-date-accounting font-size-12" style="width: 180px !important;" type="text" placeholder="Tercero asociado al detalle">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <i class="fas fa-user-plus color-red font-size-18"></i>
+                        <i class="fas fa-plus-square color-red font-size-18 padding-horizontal-10"></i>
+                    </div>
+                </div>
+                <div class="navbar-product-select-accounting">
+                </div>
+                <div>
+                    <div style="margin-left: 42px; margin-top: 10px; margin-bottom: 5px;">
+                        <h6 class="uk-margin-remove uk-text-bold color-blue font-size-15">Cuenta seleccionada:</h6>
+                    </div>
+                    <div class="uk-flex uk-flex-middle padding-vertical-5" style="margin-left: 42px;">
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-300">Cuenta</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Valor</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Naturaleza</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Notas</h6>
+                        <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 width-240">Tercero</h6>
+                    </div>
+                </div>
+                <div class="hr-tab"></div>
             </div>
         </div>
     </div>
     <!-- Persona -->
-    <div style="display: none;">
+    <div style="display: inline;">
         <div class="main-container-accounting">
             <div class="uk-flex uk-flex-middle navbar-search-products-accounting">
                 <div class="uk-flex uk-flex-center uk-flex-middle" style="padding-left: 40px; ">
