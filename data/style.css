@@ -1564,6 +1564,14 @@
     pointer-events: none;
 }
 
+.width-180 {
+    width: 180px;
+}
+
+.width-140 {
+    width: 140px;
+}
+
 .select_arrow-create-product-accounting {
     position: absolute;
     top: 12px;
@@ -1900,4 +1908,12 @@
     width: 400px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.button-pendients-reports {
+    width: 485px;
+    height: 45px;
+    border-bottom: 30px solid white !important;
+    box-shadow: -2px -6px 5px 0px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: none;
 }
