@@ -1917,3 +1917,18 @@
     box-shadow: -2px -6px 5px 0px rgba(0, 0, 0, 0.15) !important;
     box-shadow: none;
 }
+
+.color-black {
+    color: black;
+}
+
+.inputs-PUC {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 300px;
+    margin-bottom: 3px;
+}
+
+.inputs-PUC:focus {
+    outline: 0;
+}
