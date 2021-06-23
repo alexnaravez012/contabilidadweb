@@ -1172,7 +1172,7 @@
     outline: 0;
     border: none;
     font-size: 11px;
-    border-bottom: 1px solid rgba(2, 2, 197, 0.377) !important;
+    border-bottom: 1px solid #85bcff !important;
     border-radius: 0px;
     background: #ffffff;
     color: rgba(0, 0, 0, 0.493);
@@ -1546,7 +1546,7 @@
     outline: 0;
     border: none;
     font-size: 11px;
-    border-bottom: 1px solid rgba(2, 2, 197, 0.5) !important;
+    border-bottom: 1px solid #85bcff !important;
     border-radius: 0px;
     background: #ffffff;
     color: rgba(0, 0, 0, 0.5);
@@ -1761,15 +1761,16 @@
 }
 
 .button-search-actualice-accounting {
-    border: 1px solid rgba(179, 179, 179, 0.781);
+    border: 1px solid rgba(179, 179, 179, 0.651);
     height: 30px;
     background-color: white;
-    color: #0554bb;
+    color: rgb(0, 0, 182);
     border-radius: 10px;
-    font-size: 11px;
     cursor: pointer;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 10.5px;
 }
 
 .button-search-actualice-accounting:focus {
@@ -1778,7 +1779,7 @@
 
 .input-register-user-accounting {
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 182, 0.459);
+    border-bottom: 1px solid #85bcff;
     width: 180px;
     color: rgba(0, 0, 182, 0.527);
     cursor: pointer;
@@ -1904,8 +1905,8 @@
 .button-selected-count {
     border: 1px solid rgba(128, 128, 128, 0.623);
     border-radius: 5px;
-    height: 25px;
-    width: 400px;
+    height: 27px;
+    width: 385px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -1954,4 +1955,16 @@
 
 .button-PUC:focus {
     outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select {
+    font-family: 'Roboto', sans-serif !important;
 }
